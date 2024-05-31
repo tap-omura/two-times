@@ -1,0 +1,24 @@
+{
+    "name": "tap-omura/two-times",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^11.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "TapOmura\\TwoTimes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TapOmura\\TwoTimes\\Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tap-omura",
+            "email": "omura@fb.tapweb.jp"
+        }
+    ],
+    "require": {}
+}
