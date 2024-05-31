@@ -5,8 +5,8 @@ namespace TapOmura\TwoTimes;
 class TwoTimes
 {
 
-    public function twoTimes(int $int)
+    public function twoTimes(float $float)
     {
-        return $int * 2;
+        return $float * 2;
     }
 }

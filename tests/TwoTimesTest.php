@@ -12,4 +12,12 @@ class TwoTimesTest extends TestCase
         $twoTimes = new TwoTimes();
         $this->assertEquals(4, $twoTimes->twoTimes(2));
     }
+
+    public function testFloat()
+    {
+        $twoTimes = new TwoTimes();
+        $this->assertEquals(4.4, $twoTimes->twoTimes(2.2));
+    }
+
+
 }
